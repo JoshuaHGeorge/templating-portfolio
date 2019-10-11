@@ -6,7 +6,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Portfolio' });
+  res.render('index', { title: 'Portfolio', message: "Discipline, Coding, Done Right" });
 });
 
 /* GET /about */

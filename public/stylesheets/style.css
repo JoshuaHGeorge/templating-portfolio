@@ -20,7 +20,7 @@ footer {
 
 @keyframes smolder-background {
   0%	{background-color: rgb(73, 72, 71);}
-  60%	{background-color: rgb(46, 46, 46);}
+  40%	{background-color: rgb(46, 46, 46);}
   /*80%	{background-color: rgb(46, 46, 46);}*/
   100%	{background-color: rgb(73, 72, 71);}
 }
@@ -32,15 +32,19 @@ body#override {
   /* font-family: Arial, Helvetica, sans-serif;
   font: italic small-caps bold 10px/1.5 Georgia, "Times New Roman"; */
   /*text-align: center;*/
-  background-color: black;
   background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(8, 6, 2, 0.7), rgba(73, 72, 71, 0.993), rgba(46, 46, 46, 0.7))!important;
+  background-image: linear-gradient(45deg, tomato, rebeccapurple);
+  background-image: image("../images/GitHub-Mark-Light-64px.png");
   /* background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(8, 6, 2, 0), rgba(46, 34, 7, 0.349), rgba(94, 71, 18, 0.678)); */
+  background-color: black;
   background-size: 100vw;
   background-clip: border-box;
   background-repeat: no-repeat;
   color: rgba(243, 241, 237, 0.959);
   animation-name: smolder-background;
-  animation-duration: 8.7s;
+  animation-duration: 13.05s;
   animation-iteration-count: infinite;
-  length: 100vw;
+  position: fixed;
+  length: 100%;
+  width: 100%;
 }
