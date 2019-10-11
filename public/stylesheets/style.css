@@ -47,4 +47,5 @@ body#override {
   position: fixed;
   length: 100%;
   width: 100%;
+  overflow-y: scroll;
 }
